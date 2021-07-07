@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #aaaaaa;
+    font-family: 'Bona Nova', serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 90%;
+    background: white;
+    padding: 1rem;
+}
+
+.profile-img {
+    float: left;
+}
+
+.profile-img img {
+    height: 6rem;
+    width: 6rem;
+}
+
+.header-bio {
+    float: left;
+    padding: 2rem;
+}
+
+.navbar {
+    float: right;
+}
+
+.clearDiv {
+    clear: both;
+}
+
+.navbar {
+    padding: 2rem;
+}
+
+.navbar ul li {
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    color: #3e717d;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: tomato;
+    text-decoration: underline;
+}
+
+hr {
+    border: dashed red;
+    border-bottom: none;
+    width: 100%;
+    margin: 1rem auto;
+}
+
+.leftSection {
+    float: left;
+    width: 40%;
+}
+
+.rightSection {
+    float: left;
+    width: 60%;
+}
+
+.rightSection ul li {
+    list-style-type: none;
+}
+
+.rightSection ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.rightSection ul li a:hover {
+    text-decoration: underline;
+    color: #abf6f7;
+}
+
+.sectionHr {
+    border: solid #878787;
+    border-bottom: none;
+}
+
+.bottom-container {
+    background: #9cabae;
+    text-align: center;
+    height: 3rem;
+    padding: 1rem;
+}
